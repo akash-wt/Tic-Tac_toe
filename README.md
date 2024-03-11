@@ -14,5 +14,5 @@ JavaScript
 ```
 
 
-![Screenshots](pic 1.png)
-![Screenshots](pic 2.png)
+![Screenshots](pic%201.png)
+![Screenshots](pic%202.png)
