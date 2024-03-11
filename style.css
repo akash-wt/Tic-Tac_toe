@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #003049;
+  text-align: center;
+}
+h1 {
+  color: rgb(232, 239, 239);
+  text-decoration: underline;
+  position: relative;
+  top: 40px;
+  font-size: 5vmin;
+}
+.container {
+  height: 80vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: none;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(232, 239, 239);
+  box-shadow: 0px 0px 5px black;
+  border: 1.5px soilid transparent;
+  font-size: 7rem;
+  color:  rgb(248, 124, 124);
+}
+
+.box:hover {
+  border: 1.5px solid black;
+}
+
+.Restart {
+  font-size: 1.5rem;
+  color: rgb(232, 239, 239);
+  border: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 10px black;
+  height: 40px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.Restart:hover {
+  border: 0.5px solid black;
+}
+
+/* info */
+
+.info {
+  width: 100vw;
+  height: vh;
+  color: rgb(240, 210, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  font-size: 2rem;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+height: 5vmin;
+width: 25vmin;
+  
+}
+.tie {
+  font-size: 2rem;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+height: 5vmin;
+width: 20vmin;
+  
+}
+.new-btn {
+  font-size: 1.5rem;
+  color: rgb(232, 239, 239);
+  border: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  
+  box-shadow: 0px 0px 10px black;
+  height: 40px;
+  width: 130px;
+  margin-top: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+

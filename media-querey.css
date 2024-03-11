@@ -1,0 +1,58 @@
+@media screen and (max-width : 1000px) {
+   .container {
+     height: 60vh;
+     width: 100vw;
+   }
+ 
+   
+ 
+   h1 {
+ 
+     font-size: 10vmin;
+   }
+ 
+ 
+   .game {
+     height: 70vmin;
+     width: 70vmin;
+ 
+   }
+ 
+   .box {
+     height: 22vmin;
+     width: 22vmin;
+     font-size: 7rem;
+   }
+ 
+   .tie {
+ 
+     font-size: 3.5rem;
+ 
+     height: 75px;
+     width: 220px;
+   }
+ 
+   .Restart {
+     font-size: 6vmin;
+ 
+     height: 10vmin;
+     width: 30vmin;
+     margin-top: 30px;
+   }
+ 
+ 
+   .new-btn {
+     font-size: 6vmin;
+     height: 10vmin;
+     width: 42vmin;
+     margin-top: 30px;
+   }
+ 
+ .win {
+   font-size:  7vmin;
+ height:11vmin;
+ width: 50vmin;
+ 
+ }
+ 
+ }
